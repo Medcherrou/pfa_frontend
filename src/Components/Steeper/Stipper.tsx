@@ -1,3 +1,4 @@
+
 import FinalStep from '../Steps/FinalStep'
 import FirstStep from '../Steps/FirstStep'
 import ForthStep from '../Steps/ForthStep'
@@ -26,6 +27,9 @@ function Stipper() {
         </FormStep>
         <FormStep stepName="Step 4">
           <ForthStep />
+        </FormStep>
+        <FormStep stepName="Step 4">
+          <FinalStep />
         </FormStep>
       </MultiStepForm>
     </div>

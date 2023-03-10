@@ -1,10 +1,13 @@
 import './App.css'
-import Stipper from './Components/Steeper/Stipper';
+import Body from './Components/DashBoard/BodySection/Body';
+import SideBare from './Components/DashBoard/SideBareSection/SideBare';
+
 
 function App() {
   return (
-    <div className="App">
-        <Stipper />
+    <div className="container">
+      <SideBare />
+      <Body />
     </div>
   );
 }

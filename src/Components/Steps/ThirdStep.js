@@ -297,7 +297,7 @@ export default function ThirdStep() {
                         label="Hauteur"
                         className="input-field"
                     />
-                    </Stack>
+                </Stack>
                 )}
                 </Box>
                 <Box>
